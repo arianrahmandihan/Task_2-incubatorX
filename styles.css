@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.Myself {
+
+    display: flex;
+    margin-left: 20px;
+}
+
+
+h4 {
+    font-size: 20px;
+    color: #800000;
+}
+
+h1 {
+
+    font-size: 30px;
+    color: #800000;
+}
+
+p {
+
+    font-size: medium;
+    color: #800000;
+}
+
+.me img {
+
+    height: 300px;
+    width: 300px;
+    margin-left: 200px;
+}
+
+
+
+
+.Button {
+
+
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    color: whitesmoke;
+    font-weight: 700;
+    border: 0;
+
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+.Button a {
+    text-decoration: none;
+}
+
+.myotherversion {
+
+    display: flex;
+    margin-top: 50px;
+    margin-left: 400px;
+
+}
+
+
+/* New Items */
+
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    margin-left: 20px;
+}
+
+.collection {
+    background-color: aliceblue;
+}
+
+
+.section-title {
+
+    margin-left: 550px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #fc5c7d;
+}
+
+.collection-title {
+    color: #6a82fb;
+}
+
+.collection-index {
+    color: #6a82fb;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+
+    color: #ffc014;
+}
+
+.fa-star.empty {
+    color: #aeaeae;
+}
+
+.me555 .Button-2 {
+
+
+    background-image: linear-gradient(to right, aqua, #6a82fb);
+    color: whitesmoke;
+    font-weight: 800;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.Button-2 a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* new product image */
+
+
+
+
+.Myself-2 {
+
+    display: flex;
+    margin-left: 30spx;
+    margin-top: 100px;
+    background-color: aliceblue;
+}
+
+
+.yourlife h4 {
+    font-size: 20px;
+    color: #800000;
+    margin-left: 90px;
+}
+
+.yourlife h1 {
+
+    font-size: 30px;
+    color: #800000;
+    margin-left: 90px;
+}
+
+.yourlife p {
+
+    font-size: medium;
+    color: #800000;
+    margin-left: 90px;
+}
+
+.me img {
+
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+
+
+
+.Button {
+
+
+    background-image: linear-gradient(to right, red, #6a82fb);
+    color: whitesmoke;
+    font-weight: 700;
+    border: 0;
+
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 90px;
+
+}
+
+.Button a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* footer section */
+
+.footer2 {
+
+    background-color: #00003e;
+    height: 100px;
+    margin-top: 100px;
+    height: 120px;
+}
+
+
+.Iam {
+    color: aliceblue;
+
+    margin-left: 500px;
+}
+
+
+.my-life-2 {
+
+    margin-left: 500px;
+}
+
+.fa-twitter {
+
+    font-size: 30px;
+    color: #6a82fb;
+    margin-right: 10px;
+}
+
+.fa-phone {
+
+    font-size: 30px;
+    color: #fc5c7d;
+    margin-right: 10px;
+}
+
+.fa-linkedin {
+
+    font-size: 30px;
+    color: aqua;
+
+
+}
+
+
+/* Media responsive */
+
+
+@media only screen and (max-width:668px) {
+
+    .Myself,
+    .myotherversion,
+    .container,
+    .Myself-2,
+    .footerme {
+        width: 100%;
+    }
+
+    .yourlife {
+        flex-direction: column;
+        background-color: yellow;
+    }
+
+
+    .me {
+
+        flex-direction: column;
+        background-color: yellow;
+
+    }
+
+
+
+
+
+    .collections {
+        background-color: red;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .collection {
+        flex-direction: column;
+    }
+
+    .footer2 {
+        flex-direction: column;
+        flex
+    }
+
+    .myotherversion {
+
+        flex-direction: column;
+    }
+
+}
